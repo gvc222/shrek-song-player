@@ -16,7 +16,7 @@
 }
 
 .music-player{
-    background: #ffe0e5;
+    background: #e0ffe0;
     width: 400px;
     padding: 25px 35px;
     text-align: center;
@@ -34,17 +34,17 @@ nav .circle {
     height: 40px;
     line-height: 40px;
     background: #fff;
-    color: #f53192;
-    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+    color: #31f545;
+    box-shadow: 0 5px 10px rgba(26, 255, 53, 0.22);
 }
 
 .song-img {
     max-width: 100%;
-    width: 220px;
+    width: 300px;
     height: 220px;
     /* border-radius: 50%; */
     border: 8px solid #fff;
-    box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+    box-shadow: 0 10px 60px rgba(26, 255, 53, 0.22);
 }
 
 .music-player h1 {
@@ -63,7 +63,7 @@ nav .circle {
     appearance: none;
     width: 100%;
     height: 6px;
-    background: #f53192;
+    background: #31f545;
     border-radius: 4px;
     cursor: pointer;
     margin: 40px 0;
@@ -71,12 +71,12 @@ nav .circle {
 
 #progress::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background: #f53192;
+    background: #31f545;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 3px solid #fff;
-    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+    box-shadow: 0 5px 5px rgba(26, 255, 53, 0.22);
 }
 
 .controls {
@@ -94,14 +94,14 @@ nav .circle {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: #f53192;
-    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+    color: #31f545;
+    box-shadow: 0 10px 20px rgba(26, 255, 53, 0.22);
     cursor: pointer;
 }
 
 .controls div:nth-child(2) {
     transform: scale(1.5);
-    background: #f53192;
+    background: #31f545;
     color: white;
 }
 
